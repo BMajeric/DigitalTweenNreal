@@ -44,7 +44,7 @@ Clone the repository
      ```
    - Response example:
      ```
-     {"message": "Location received!"}
+     {"message": "Data received successfully"}
      ```
 2. GET /get
    - Gets the GPS coordiantes from the server (used in the NReal app)
