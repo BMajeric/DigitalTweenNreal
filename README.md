@@ -28,6 +28,8 @@ Clone the repository
 2. AR App (NReal Light Glasses)
    - For testing the app on a PC start the "DigitalTween.apk" app
    - For use on the NReal Light AR glasses, upload the "DigitalTweenPlaneDetector.apk" app onto your AR glasses and start it
+3. Flask Server
+   - Follow the [link](https://github.com/BMajeric/DiplomskiProjektPythonServer) for more information on the server
 ## Use of the Server
 - To change which server contains the GPS coordinate data, modify the *serverUrl* variable in the *GPSSender.cs* and *GPSReceiver.cs* scripts inside the *Assets/Scripts* folder
 ### API Endpoints
