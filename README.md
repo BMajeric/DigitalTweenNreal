@@ -11,7 +11,7 @@ This project consists of two Unity applications that work together to place a ho
 ### Components
 1. Mobile App (Android)
    - A simple Unity app meant to be installed onto an Android phone
-   - Contains a button that retrieves the devices GPS coordinates on click
+   - Contains a button that retrieves the device's GPS coordinates on click
    - Sends the data to the Flask server
 2. AR App (NReal Light Glasses)
    - A Unity App meant to run on NReal Light AR glasses
@@ -19,7 +19,8 @@ This project consists of two Unity applications that work together to place a ho
    - Enables the user to select and place a model of the house
    - The placed model can then be moved and rotated and its location can be locked
    - Periodically requests the latest GPS coordinates from the Flask server
-   - When model is locked, its data, along with the gps coordinates is sent to the Flask server
+   - When model is locked, its data, along with the GPS coordinates is sent to the Flask server
+
 ## Instalation and Setup
 Clone the repository 
 1. Mobile App (Android)
@@ -30,6 +31,7 @@ Clone the repository
    - For use on the NReal Light AR glasses, upload the "DigitalTweenPlaneDetector.apk" app onto your AR glasses and start it
 3. Flask Server
    - Follow the [link](https://github.com/BMajeric/DiplomskiProjektPythonServer) for more information on the server
+
 ## Use of the Server
 - To change which server contains the GPS coordinate data, modify the *serverUrl* variable in the *GPSSender.cs* and *GPSReceiver.cs* scripts inside the *Assets/Scripts* folder
 ### API Endpoints
